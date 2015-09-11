@@ -1,0 +1,106 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.pac-man {
+ width: 65px; 
+     height: 65px; 
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(45deg); position: absolute;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.55);
+}
+
+
+.huevo {
+    width: 50px;
+    height: 70px;
+    background-color: #5cb85c;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.55);
+}
+
+.circulo
+{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.55);
+}
+
+#start 
+{
+    width: 150px;
+    padding: 10px 15px;
+    text-align: center;
+    font: bold 15px arial;
+    color: #000;
+    position: absolute;
+    top: 300px;
+    left: 610px;
+    cursor: pointer;
+}
+
+.score {
+  background: white;
+  color: rgba(128, 128, 128, 0.8);
+ font-size: 44px;
+ text-shadow:  0 0.1em 0.1em #e6e6e6, 0 0 0 #000;
+}
+
+
+#velocidad
+{
+    width: 150px;
+    padding: 10px 15px;
+    text-align: center;
+    font::; bold 15px arial;
+    color: #000;
+    position: absolute;
+    top: 250px;
+    left: 590px;
+    cursor: pointer;
+}
+
+
+#contenedor
+{
+	width: 100%;
+	height: 500px;
+}
